@@ -28,4 +28,5 @@ Markdownを採用しているWebサービスやアプリケーションは実は
 * Backlog
 * WordPress.com
 &nbsp;
-WordPressで作られたWebサイトでもJetpackプラグインを使用すれば、投稿画面でMarkdownn
+WordPressで作られたWebサイトでもJetpackプラグインを使用すれば、投稿画面でMarkdownを使う事ができるようです。
+
