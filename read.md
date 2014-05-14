@@ -124,3 +124,35 @@ WordPressで作られたWebサイトでもJetpackプラグインを使用すれ�
 ### 画像
     ![octcat](https://raw.githubusercontent.com/github/media/master/octocats/octocat.png)
 ![octcat](https://raw.githubusercontent.com/github/media/master/octocats/octocat.png)
+
+### テーブル
+
+~~~~
+    野菜|果物|きのこ|
+    ----|-----|-----|
+    白菜 |りんご|しいたけ|
+    とまと|ぶどう|なめこ|
+    クレソン|梨|エリンギ|
+~~~~
+
+野菜| 果物 |きのこ|
+----|-----|-----|
+白菜 |りんご|しいたけ|
+とまと|ぶどう|なめこ|
+クレソン|梨|エリンギ|
+
+&nbsp;  
+&nbsp;  
+&nbsp;  
+## あとがき
+
+
+いかがだったでしょうか？
+比較的覚えやすい感じではなかったでしょうか？？  
+テーブルなんてHTMLを覚えるより遥かに簡単なので、  
+普段HTMLを書かないライターさんにもオススメだと思います。  
+エンジニアさんもMarkdownでwikiを書く機会も増えると思うので覚えてても損はないかもしれませんねー。  
+
+おわり
+
+http://en.support.wordpress.com/markdown-quick-reference/
