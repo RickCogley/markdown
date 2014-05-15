@@ -1,6 +1,6 @@
 # Markdownについて
 &nbsp;  
-今回のマークアップミーティングはMarkdownについて紹介したいと思います。  
+今回のマークアップミーティング、最近若干盛り上がってる感のあるMarkdownについて紹介したいと思います。  
 &nbsp;
 &nbsp;
 &nbsp;
@@ -15,7 +15,7 @@ Markdownのような言語は軽量マークアップ言語と呼ばれていま
 
 他の軽量マークアップ言語では「はてな記法」や「PukiWiki記法」などがありますね。他にもいろいろとあるようです。
   
-[wikipedia: 軽量マークアップ言語](http://ja.wikipedia.org/wiki/%E8%BB%BD%E9%87%8F%E3%83%9E%E3%83%BC%E3%82%AF%E3%82%A2%E3%83%83%E3%83%97%E8%A8%80%E8%AA%9E)
+<a href="http://ja.wikipedia.org/wiki/%E8%BB%BD%E9%87%8F%E3%83%9E%E3%83%BC%E3%82%AF%E3%82%A2%E3%83%83%E3%83%97%E8%A8%80%E8%AA%9E" target="_blank">wikipedia: 軽量マークアップ言語</a>
 
 &nbsp;
 &nbsp;
@@ -28,9 +28,8 @@ Markdownを採用しているWebサービスやアプリケーションは実は
 * Backlog
 * WordPress.com
   
-&nbsp;
-WordPress.comにはMarkdownのリファレンスもありますね。 
-http://en.support.wordpress.com/markdown-quick-reference/
+&nbsp;  
+WordPress.comにはMarkdownの<a href="http://en.support.wordpress.com/markdown-quick-reference/" target="_blank">リファレンス</a>もあります。  
 WordPressで作られたWebサイトでもJetpackプラグインを使用すれば、投稿画面でMarkdownを使う事ができるようです。  
 このドキュメントもMarkdownで書かれています。  
 &nbsp;  
@@ -38,43 +37,49 @@ WordPressで作られたWebサイトでもJetpackプラグインを使用すれ�
 ## どうやって書くの？？
 &nbsp;  
 &nbsp;  
-記述方法もとても覚えやすいと思います。
+記述方法も簡単なのでHTMLに慣れていない人でも覚えやすいと思います。  
+こちらのオンラインエディタを使用すると即HTMLに変換されるので分かりやすいです。
+<a href="http://dillinger.io/">Dillinger</a>
 &nbsp;  
 
 ###  見出し  
-    #これはh1です  
-    ##これはh2です  
-    ###これはh3です
+~~~~
+#これはh1です  
+##これはh2です  
+###これはh3です
+~~~~
 #これはh1です
 ##これはh2です
 ###これはh3です
 &nbsp;  
 &nbsp;  
 ###  リスト
-    * りんご
-    * ぶどう
-    * バナナ
+~~~~
+* りんご
+* ぶどう
+* バナナ
+~~~~
 
 * りんご
 * ぶどう
 * バナナ
 
 この書き方でも
-
-    - りんご
-    - ぶどう
-    - ばなな
-
+~~~~
+- りんご
+- ぶどう
+- ばなな
+~~~~
 - りんご
 - ぶどう
 - ばなな
 
 この書き方でも
-
-    + りんご
-    + ぶどう
-    + ばなな
-
+~~~~
++ りんご
++ ぶどう
++ ばなな
+~~~~
 + りんご
 + ぶどう
 + ばなな
@@ -83,10 +88,11 @@ WordPressで作られたWebサイトでもJetpackプラグインを使用すれ�
 &nbsp;  
 
 ### 番号付きリスト
-    1. りんご
-    2. ぶどう
-    3. ばなな
-
+~~~~
+1. りんご
+2. ぶどう
+3. ばなな
+~~~~
 1. りんご
 2. ぶどう
 3. ばなな
@@ -96,10 +102,11 @@ WordPressで作られたWebサイトでもJetpackプラグインを使用すれ�
 &nbsp;  
 
 ### 引用
-    >引用文引用文引用文引用文引用文
-    >引用文引用文引用文引用文引用文
-    >引用文引用文引用文引用文引用文
-
+~~~~
+>引用文引用文引用文引用文引用文
+>引用文引用文引用文引用文引用文
+>引用文引用文引用文引用文引用文
+~~~~
 >引用文引用文引用文引用文引用文  
 >引用文引用文引用文引用文引用文  
 >引用文引用文引用文引用文引用文  
@@ -116,7 +123,9 @@ WordPressで作られたWebサイトでもJetpackプラグインを使用すれ�
 &nbsp;  
 
 ### リンク
-    [Hivelocity](http://www.hivelocity.co.jp)
+~~~~
+[Hivelocity](http://www.hivelocity.co.jp)
+~~~~
 [Hivelocity](http://www.hivelocity.co.jp)
 
 &nbsp;  
@@ -124,17 +133,19 @@ WordPressで作られたWebサイトでもJetpackプラグインを使用すれ�
 &nbsp;  
 
 ### 画像
-    ![octcat](https://raw.githubusercontent.com/github/media/master/octocats/octocat.png)
-![octcat](https://raw.githubusercontent.com/github/media/master/octocats/octocat.png)
+~~~~
+![画像の説明](https://raw.githubusercontent.com/github/media/master/octocats/octocat.png)
+~~~~
+![画像の説明](https://raw.githubusercontent.com/github/media/master/octocats/octocat.png)
 
 ### テーブル
 
 ~~~~
-    野菜|果物|きのこ|
-    ----|-----|-----|
-    白菜 |りんご|しいたけ|
-    とまと|ぶどう|なめこ|
-    クレソン|梨|エリンギ|
+野菜|果物|きのこ|
+----|-----|-----|
+白菜 |りんご|しいたけ|
+とまと|ぶどう|なめこ|
+クレソン|梨|エリンギ|
 ~~~~
 
 野菜| 果物 |きのこ|
@@ -146,15 +157,28 @@ WordPressで作られたWebサイトでもJetpackプラグインを使用すれ�
 &nbsp;  
 &nbsp;  
 &nbsp;  
+
+## コードブロック
+~~~~
+    ~~~~
+    $('a.btn').on('click', function() { alert('Hellow World!'); });
+    ~~~~
+~~~~
+~~~~
+    $('a.btn').on('click', function() { alert('Hellow World!'); });
+~~~~
+
+&nbsp;  
+&nbsp;  
+&nbsp;  
 ## あとがき
 
 
 いかがだったでしょうか？
-比較的覚えやすい感じではなかったでしょうか？？  
-テーブルなんてHTMLを覚えるより遥かに簡単なので、  
+比較的覚えやすいと感じたのではないでしょうか？？  
+テーブルなんてHTMLを覚えるよりも遥かに簡単なので、  
 普段HTMLを書かないライターさんにもオススメだと思います。  
-エンジニアさんもMarkdownでwikiを書く機会も増えると思うので覚えてても損はないかもしれませんねー。  
+エンジニアさんもMarkdownでwikiなどを書く機会も増ていくのではないかと思うので覚えてても損はないかもしれませんねー。  
 
 おわり
-
 
