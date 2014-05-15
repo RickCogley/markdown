@@ -38,8 +38,8 @@ WordPressで作られたWebサイトでもJetpackプラグインを使用すれ�
 &nbsp;  
 &nbsp;  
 記述方法も簡単なのでHTMLに慣れていない人でも覚えやすいと思います。  
-こちらのオンラインエディタを使用すると即HTMLに変換されるので分かりやすいです。
-<a href="http://dillinger.io/">Dillinger</a>
+こちらのオンラインエディタを使用すると即HTMLに変換されるので分かりやすいです。  
+<a href="http://dillinger.io/" target="_blank">Dillinger</a>
 &nbsp;  
 
 ###  見出し  
