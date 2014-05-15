@@ -161,11 +161,11 @@ WordPressで作られたWebサイトでもJetpackプラグインを使用すれ�
 ## コードブロック
 ~~~~
     ~~~~
-    $('a.btn').on('click', function() { alert('Hellow World!'); });
+    echo 'こんにちは';
     ~~~~
 ~~~~
 ~~~~
-    $('a.btn').on('click', function() { alert('Hellow World!'); });
+    echo 'こんにちは';
 ~~~~
 
 &nbsp;  
